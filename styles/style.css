@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+                /* nav section starts here... */
+.nav-container{
+    background-color: rgba(229, 84, 115, 0.205);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    height: 120px;
+}
+.logo{
+    cursor: pointer;
+}
+.logo-img{
+    width: 140px;
+}
+.list{
+    display: flex;
+}
+.list-item{
+    padding-left: 30px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-left: 60px;
+    cursor: pointer;
+    color: #272727;
+}
+.list-item:hover{
+    color: rgb(255, 187, 41);
+}
+            /* nav section end here... */
+
+
+            /* banner section starts here... */
+.banner-container{
+    height: 840px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-text{
+    padding-left: 240px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 10px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 38px;
+    padding-left: 8px;
+    padding-bottom: 38px;
+}
+.btn{
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 44px;
+    gap: 10px;
+    color: #FFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(17, 167, 134, 0.349);
+    color: #fa3d66;
+    border: 1px solid #FFF;
+    font-size: 22px;
+}
+.banner-image{
+    padding: 30px 50px;
+    margin: 46px 150px 0px 0px;
+}
+                    /* banner section end here... */
+
+
+
+                    /* featured section starts here... */
+.featured-section{
+    height: 200px;
+    text-align: center;
+    padding-top: 120px;
+}
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+.featured-boxes{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 100px;
+}
+.pink-box{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius:  300px 300px 0px 0px;
+}
+.light-box{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius:  300px 300px 0px 0px;
+}
+.gray-box{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius:  300px 300px 0px 0px;
+}
+.featured-img{
+    margin-top: 110px;
+    margin-left: 76px;
+}
+.featured-img-second{
+    margin-top: 165px;
+    margin-left: 50px;
+}
+.featured-img-third{
+    margin-top: 67px;
+    margin-left: 76px;
+}
+.flower-name{
+    color: #272727;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 32px;
+    cursor: pointer;
+}
+.delivery{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.img{
+    padding-left: 120px;
+}
+.text{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 24px;
+}
+.text-contact{
+    padding-left: 60px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 24px;
+}
+         /* featured section end here... */
+
+
+
+         /* hot deal section starts here... */
+.hot-deal-section{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.hot-deal-title{
+    color: #272727;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 950;
+    padding-bottom: 24px;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+.deal-btn{
+    border: none;
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 224px;
+}
+.deal-btn:hover{
+    background-color: rgba(17, 167, 134, 0.349);
+    color: #fa3d66;
+    border: 1px solid #FFF;
+    font-size: 21px;
+}
+.pink{
+   color: #E55473;
+}
+            /* hot deal section end here... */
+
+
+
+            /* social and image section starts here... */
+.social-feature{
+    text-align: center;
+    margin-top: 130px;
+}
+.social-title{
+    color: #272727;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 23px;
+}
+.social-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.social-images{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 128px;
+}
+            /* social and image section end here... */
+
+
+
+
+            /* contact section starts here... */
+.contact-section{
+    width: 1440px;
+    height: 449px;
+    background-image: url('../assets/rectangle\ 9.png');
+    margin: auto;
+}
+.contact-text{
+    text-align: center;
+    padding-top: 130px;
+}
+.contact-title{
+    color: #272727;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.contact-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family:initial;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+.email-field{
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-top: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 25px;
+}
+.btn{
+    margin-left: 15px;
+}
+            /* contact section end here... */
+
+
+
+            /* footer section starts here... */
+.footer-section{
+    margin-top: 130px;
+    height: 449px;
+    background-color: #111010;
+}
+.footer-text{
+    color: #FFF;
+    text-align: center;
+    padding-top: 130px;
+}
+.footer-title{
+    /* color: #E55473; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.719);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.493);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-top: 20px;
+}
+            /* footer section end here... */
